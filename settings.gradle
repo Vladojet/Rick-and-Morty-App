@@ -1,0 +1,18 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+rootProject.name = "RickMorty"
+include ':app'
+include ':core-ui'
+include ':core-common'
+include ':core-data'
+include ':core-datastore'
+include ':core-database'
+include ':core-model'
+include ':feature-character'
+include ':feature-search'
